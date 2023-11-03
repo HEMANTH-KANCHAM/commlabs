@@ -1,0 +1,341 @@
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.intro-container {
+  background-image: url("https://resources.commlabindia.com/hubfs/webinars/corporate-training-with-ai-banner.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+}
+.intro-content-container {
+  padding: 20px;
+  width: 90%;
+  max-width: 1110px;
+}
+.intro-quote-heading {
+  text-align: center;
+  color: #fff;
+  font-size: 28px;
+}
+.intro-image-book-slot-container {
+  display: flex;
+
+  margin-top: 40px;
+}
+.intro-book-slot-image-container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.intro-book-slot-image {
+}
+
+.book-slot-card {
+  background-color: #e6e5e2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 50px;
+  font-family: "Times New Roman", Times, serif;
+  width: 50%;
+}
+.book-slot-description {
+  margin: 0;
+  font-size: 20px;
+}
+.book-slot-heading {
+  font-size: 48px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  color: #bf2b2b;
+  margin: 0;
+  margin-bottom: 20px;
+}
+.book-slot-point {
+  align-self: flex-start;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 8px;
+}
+.tick-mark {
+  width: 18px;
+  margin-right: 10px;
+}
+.book-slot-speakers {
+  background-color: #000;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  font-family: "Open Sans", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  padding: 3px;
+  font-weight: 500;
+}
+.boot-slot-time-venue {
+  margin: 0;
+  font-family: "bree serif";
+  font-size: 20px;
+  font-weight: bold;
+  color: #3a3a3a;
+  text-align: center;
+}
+.strike {
+  text-decoration: line-through;
+}
+.free-text {
+  color: #bf2b2b;
+  font-style: italic;
+  font-weight: 100;
+}
+.secure-your-seat-button {
+  padding: 8px 30px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background-color: #bf2b2b;
+  width: fit-content;
+  color: #fff;
+  font-weight: bold;
+  font-size: 24px;
+  border-radius: 35px;
+}
+
+.button-icon {
+  width: 60px;
+  margin-right: 10px;
+}
+.company-logo-container {
+  background-image: url("https://resources.commlabindia.com/hubfs/webinars/corporate-training-with-ai-banner.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+.red-background {
+  background-color: #bf2b2bbe;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.company-logo {
+  padding: 40px;
+  max-width: 1110px;
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .company-logo {
+    width: 90%;
+  }
+}
+.you-will-learn-section {
+  background-image: url("https://resources.commlabindia.com/hubfs/webinars/corporate-training-with-ai-grey-banner.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+}
+.you-will-learn-content {
+  width: 90%;
+  max-width: 1110px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+.you-will-learn-heading {
+  font-size: 42px;
+  margin: 0;
+  color: #45454e;
+}
+.you-will-learn-list {
+  padding: 0;
+  list-style-type: none;
+  width: 70%;
+}
+.you-will-learn-list-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.list-point {
+  font-weight: bold;
+  color: #45454e;
+}
+
+.you-will-learn-slot-heading {
+  text-align: center;
+  font-size: 32px;
+  width: 40%;
+  color: #35353b;
+  margin: 0;
+}
+.you-will-learn-slot-sub-heading {
+  font-size: 22px;
+  font-weight: bold;
+  color: #35353b;
+  margin-bottom: 0;
+}
+.you-will-learn-slot-time-venue {
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  color: #35353b;
+}
+.secure-your-seat-button-with-price {
+  padding: 8px 40px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background-color: #bf2b2b;
+  width: fit-content;
+  color: #fff !important;
+  font-weight: bold;
+  border-radius: 50px;
+  font-size: 12px;
+}
+.secure-your-seat-button-text {
+  margin: 0;
+  margin-top: 10px;
+}
+.secure-your-seat-button-price {
+  font-size: 14px;
+  margin: 10;
+}
+.free-text-button {
+  font-weight: bold;
+  color: #fff;
+  font-style: italic;
+  font-size: 16px;
+  text-align: center;
+}
+
+.meet-your-hosts {
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+}
+.meet-your-hosts-content {
+  width: 90%;
+  max-width: 1110px;
+  padding: 40px;
+}
+.meet-your-hosts-heading {
+  color: #fff;
+  text-align: center;
+  font-size: 44px;
+  margin: 0;
+  font-weight: 500;
+}
+.meet-your-hosts-cards-container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 768px) {
+  .meet-your-hosts-cards-container {
+    flex-direction: column;
+  }
+}
+.meet-your-hosts-card {
+  font-family: Arial, sans-serif;
+  font-weight: 100;
+  color: #fff;
+  width: 30%;
+}
+@media screen and (max-width: 768px) {
+  .meet-your-hosts-card {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+.meet-your-host-image {
+  width: 100%;
+}
+.meet-your-host-name {
+  font-size: 26px;
+}
+.meet-your-host-position {
+  font-size: 20px;
+}
+.meet-your-hosts-description {
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+/* ####################### */
+
+.bottom-card-section {
+  display: flex;
+  justify-content: center;
+  background-image: url("https://resources.commlabindia.com/hubfs/webinars/corporate-training-with-ai-banner.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+.bottom-card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  max-width: 1110px;
+  padding: 40px;
+}
+.bottom-card-slot-heading {
+  text-align: center;
+  font-size: 36px;
+  color: #fff;
+  margin: 0;
+}
+.bottom-card-slot-sub-heading {
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 0;
+}
+.bottom-card-slot-time-venue {
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  color: #fff;
+}
+/* ######################### */
+
+.footer-section {
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+}
+.footer-content {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  width: 90%;
+  max-width: 1110px;
+}
+.footer-company-logo {
+  max-width: 230px;
+}
+.footer-copyright {
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 0;
+}
+.footer-privacy-site-map {
+  align-self: flex-end;
+  margin: 0;
+  color: #fff;
+}
+.a-link {
+  text-decoration: none;
+  color: #fff;
+}
